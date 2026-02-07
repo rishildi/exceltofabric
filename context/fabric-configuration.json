@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "displayName": "Excel-Migration-Workspace",
+    "description": "Workspace for migrated Excel workbook solutions",
+    "capacityId": "<your-capacity-id>"
+  },
+  "lakehouses": [
+    {
+      "displayName": "lh_bronze",
+      "description": "Bronze layer - raw ingested data from Excel/source systems"
+    },
+    {
+      "displayName": "lh_silver",
+      "description": "Silver layer - cleansed and conformed data with business rules applied"
+    },
+    {
+      "displayName": "lh_gold",
+      "description": "Gold layer - business-ready aggregated data for reporting"
+    }
+  ]
+}
